@@ -2,8 +2,8 @@
 include 'instagram.class.php';
 include 'instagram_config.php';
  
-$username = 'xxxx';   // your username
-$password = 'yyyy';   // your password
+$username = '___gaming.hub';   // your username
+$password = 'Adarsh98';   // your password
  
 $insta = new instagram();
 $response = $insta->Login($username, $password);
