@@ -36,7 +36,7 @@ foreach($decode['items'] as $data)  {
     $username = $data['user']['username'];
     $haslike = $data['has_liked'];
  
-    if ($i<40)  {
+    if ($i<130)  {
         if ($like_count < 20 )  {
             $fakecomment = $hello[array_rand($hello)].' '.'@'. $username . '' . $praise[array_rand($praise)];
             $fres=$insta->IsFriend($user_id);
