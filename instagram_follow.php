@@ -1,6 +1,6 @@
 <?php
-include('instagram.class.php');
-include('instagram_config.php');
+include('Instagram_config.php');
+include('instagram_class.php');
  
 $username = '___gaming.hub';   // your username
 $password = 'Adarsh98';   // your password
