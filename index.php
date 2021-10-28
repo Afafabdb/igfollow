@@ -47,16 +47,16 @@ foreach($decode['items'] as $data)  {
                 echo "<br> after follow";
                 if (!$haslike) {
                     echo "<br> All auto comment, post, Like";
-                    sleep(rand(10,10));
+                    sleep(rand(15,20));
                     $res=$insta->PostLike($media_id);
-                    sleep(rand(10,10));
+                    sleep(rand(15,20));
                     $res=$insta->PostComment($fakecomment, $media_id);  
-                    sleep(rand(10,10)); 
+                    sleep(rand(15,20)); 
                 }              
             } else {
                     if (!$haslike) {
                     echo "<br> Like only";
-                    sleep(rand(10,10));
+                    sleep(rand(15,20));
                     $res=$insta->PostLike($media_id);   
                     }
             }
