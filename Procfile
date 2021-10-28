@@ -1,1 +1,1 @@
-worker: php instagram_follow.php
+worker: php index.php
