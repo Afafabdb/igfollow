@@ -2,8 +2,8 @@
 include('Instagram_config.php');
 include('instagram_class.php');
  
-$username = '___gaming.hub';   // your username
-$password = 'adarshm9527';   // your password
+$username = '5n5n5n51';   // your username
+$password = 'holyangels98';   // your password
  
 $insta = new instagram();
 $response = $insta->Login($username, $password);
@@ -47,16 +47,16 @@ foreach($decode['items'] as $data)  {
                 echo "<br> after follow";
                 if (!$haslike) {
                     echo "<br> All auto comment, post, Like";
-                    sleep(rand(3,10));
+                    sleep(rand(10,10));
                     $res=$insta->PostLike($media_id);
-                    sleep(rand(3,10));
+                    sleep(rand(10,10));
                     $res=$insta->PostComment($fakecomment, $media_id);  
-                    sleep(rand(3,10)); 
+                    sleep(rand(10,10)); 
                 }              
             } else {
                     if (!$haslike) {
                     echo "<br> Like only";
-                    sleep(rand(3,10));
+                    sleep(rand(10,10));
                     $res=$insta->PostLike($media_id);   
                     }
             }
