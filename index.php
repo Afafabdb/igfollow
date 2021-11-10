@@ -3,7 +3,7 @@ include('Instagram_config.php');
 include('instagram_class.php');
  
 $username = 'yirimo2667';   // your username
-$password = 'adarshm98';   // your password
+$password = 'adarshm9527';   // your password
  
 $insta = new instagram();
 $response = $insta->Login($username, $password);
